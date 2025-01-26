@@ -1,0 +1,59 @@
+{
+    "20250124-220001_AFS_INBO__Tajul_01511255255-all.mp3": {
+        "file_name": "20250124-220001_AFS_INBO__Tajul_01511255255-all.mp3",
+        "download_link": "https://114.130.69.204/RECORDINGS/MP3/20250124-220001_AFS_INBO__Tajul_01511255255-all.mp3",
+        "date": "2025-01-24",
+        "time": "22:19",
+        "details": {
+            "topic": "Package Delivery",
+            "resolution_status": "No",
+            "communication_modes": {
+                "customer": {"tone": "informal", "style": "direct"},
+                "agent": {"tone": "neutral", "style": "curious"}
+            },
+            "improvement_suggestions": [
+                {"suggestion": "Agent should have asked for the customer's name", "status": "pending"},
+                {"suggestion": "Agent should have asked for the customer's address", "status": "pending"}
+            ]
+        }
+    },
+    "20250124-220049_AFS_INBO_AFS_Future_School_Rahatul_01629734111-all.mp3": {
+        "file_name": "20250124-220049_AFS_INBO_AFS_Future_School_Rahatul_01629734111-all.mp3",
+        "download_link": "https://114.130.69.204/RECORDINGS/MP3/20250124-220049_AFS_INBO_AFS_Future_School_Rahatul_01629734111-all.mp3",
+        "date": "2025-01-24",
+        "time": "22:04",
+        "details": {
+            "topic": "School ticket booking transfer",
+            "resolution_status": "Yes",
+            "communication_modes": {
+                "customer": {"tone": "Polite", "style": "Clear"},
+                "agent": {"tone": "Helpful", "style": "Guided"}
+            },
+            "improvement_suggestions": [
+                {
+                    "suggestion": "Verify the customer's identity before transferring the ticket booking",
+                    "reason": "To ensure accurate transfer and prevent any potential issues"
+                }
+            ]
+        }
+    },
+    "20250124-220347_AFS_INBO_AFS_Future_School_Rahatul_01858593551-all.mp3": {
+        "file_name": "20250124-220347_AFS_INBO_AFS_Future_School_Rahatul_01858593551-all.mp3",
+        "download_link": "https://114.130.69.204/RECORDINGS/MP3/20250124-220347_AFS_INBO_AFS_Future_School_Rahatul_01858593551-all.mp3",
+        "date": "2025-01-24",
+        "time": "22:07",
+        "details": {
+            "topic": "Greetings and Introduction",
+            "resolution_status": "No",
+            "communication_modes": {
+                "customer": {"tone": "Formal", "style": "Polite"},
+                "agent": {"tone": null, "style": null}
+            },
+            "improvement_suggestions": [
+                {
+                    "suggestion": "The agent should respond with a greeting that matches the customer's tone and style. In this case, since the customer is using Islamic greetings (Assalam walekum), the agent could also use similar phrases to establish a connection."
+                }
+            ]
+        }
+    }
+}
