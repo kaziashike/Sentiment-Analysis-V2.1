@@ -47,3 +47,28 @@ response={
 
 # Call the function with a dictionary
 extractData(response)
+
+
+Data = {
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": 0,
+            "message": {
+                "content": "{\n\"topic\": \"Greetings and Introduction\",\n\"resolution_status\": \"No\",\n\"communication_modes\": {\n\"customer\": {\"tone\": \"Formal\", \"style\": \"Polite\"},\n\"agent\": {\"tone\": \"Friendly\", \"style\": \"Welcoming\"}\n},\n\"improvement_suggestions\": [\n{\" suggestion\": \"Verify customer's language preference at the start of the call to ensure accurate communication.\"}\n]",
+                "role": "assistant"
+            },
+            "references": 0
+        }
+    ],
+    "created": 1737909833,
+    "id": "placeholder",
+    "model": "Llama 3 8B Instruct",
+    "object": "chat.completion",
+    "usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 126,
+        "total_tokens": 211
+    }
+}

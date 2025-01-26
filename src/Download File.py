@@ -2,7 +2,7 @@ import os
 import requests
 from datetime import datetime
 import json
-from main import Processing
+from Processing import Processing
 from extract import extractData
 
 # Function to download files within the specified range

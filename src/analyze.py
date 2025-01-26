@@ -7,32 +7,24 @@ def analyze_text(transcription):
 
     # Create the payload for the request
     payload = {
-    "model": "Llama 3 8B Instruct",
-    "messages": [
-        {
-            "role": "user",
-            "content": (
-                f"Analyze the following call transcription between an agent and a customer:\n\n"
-                f"{transcription}\n\n"
-                f"Respond **strictly** with valid JSON. No extra comments, explanations, or text outside of the JSON structure.\n\n"
-                f"JSON format:\n"
-                f"{{\n"
-                f"  \"topic\": \"string\",\n"
-                f"  \"resolution_status\": \"string\",\n"
-                f"  \"communication_modes\": {{\n"
-                f"    \"customer\": {{\"tone\": \"string\", \"style\": \"string\"}},\n"
-                f"    \"agent\": {{\"tone\": \"string\", \"style\": \"string\"}}\n"
-                f"  }},\n"
-                f"  \"improvement_suggestions\": [\n"
-                f"    {{\"suggestion\": \"string\", \"reason\": \"string\"}}\n"
-                f"  ]\n"
-                f"}}"
-            )
-        }
-    ],
-    "max_tokens": 500,
-    "temperature": 0.3
-}
+        "model": "Llama 3 8B Instruct",
+        "messages": [
+            {
+                "role": "user",
+                "content": (
+                    f"Analyze the following call transcription between an agent and a customer:\n\n"
+                    f"{transcription}\n\n"
+                    f"Provide the analysis in clear JSON format with the following fields:\n"
+                    f"- topic: the conversation's topic.\n"
+                    f"- resolution_status: 'Yes' or 'No', and a brief explanation.\n"
+                    f"- communication_modes: the tone or style of communication for both customer and agent.\n"
+                    f"- improvement_suggestions: Suggest how the call can be improved by Agent."
+                )
+            }
+        ],
+        "max_tokens": 500,
+        "temperature": 0.3
+    }
 
 
     # Send the POST request
